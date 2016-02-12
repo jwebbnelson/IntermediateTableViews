@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-struct Setting {
+class Setting {
     
     var image: UIImage?
     var name: String
@@ -23,4 +23,5 @@ struct Setting {
             self.image = image
         }
     }
+
 }
