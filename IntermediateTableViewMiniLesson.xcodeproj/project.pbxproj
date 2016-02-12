@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8320CC191C6E56C200199F19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8320CC181C6E56C200199F19 /* AppDelegate.swift */; };
-		8320CC1B1C6E56C200199F19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8320CC1A1C6E56C200199F19 /* ViewController.swift */; };
 		8320CC1E1C6E56C200199F19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8320CC1C1C6E56C200199F19 /* Main.storyboard */; };
 		8320CC201C6E56C200199F19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8320CC1F1C6E56C200199F19 /* Assets.xcassets */; };
 		8320CC231C6E56C200199F19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8320CC211C6E56C200199F19 /* LaunchScreen.storyboard */; };
@@ -16,6 +15,8 @@
 		8320CC391C6E56C300199F19 /* IntermediateTableViewMiniLessonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8320CC381C6E56C300199F19 /* IntermediateTableViewMiniLessonUITests.swift */; };
 		8320CC471C6E5AFB00199F19 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8320CC461C6E5AFB00199F19 /* SettingsController.swift */; };
 		8320CC491C6E616300199F19 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8320CC481C6E616300199F19 /* Setting.swift */; };
+		8320CC4B1C6E644600199F19 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8320CC4A1C6E644600199F19 /* SettingsViewController.swift */; };
+		8320CC4D1C6E64A100199F19 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8320CC4C1C6E64A100199F19 /* SettingsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 /* Begin PBXFileReference section */
 		8320CC151C6E56C200199F19 /* IntermediateTableViewMiniLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntermediateTableViewMiniLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8320CC181C6E56C200199F19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8320CC1A1C6E56C200199F19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8320CC1D1C6E56C200199F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8320CC1F1C6E56C200199F19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8320CC221C6E56C200199F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,8 @@
 		8320CC3A1C6E56C300199F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8320CC461C6E5AFB00199F19 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		8320CC481C6E616300199F19 /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		8320CC4A1C6E644600199F19 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8320CC4C1C6E64A100199F19 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				8320CC181C6E56C200199F19 /* AppDelegate.swift */,
-				8320CC1A1C6E56C200199F19 /* ViewController.swift */,
 				8320CC461C6E5AFB00199F19 /* SettingsController.swift */,
 				8320CC481C6E616300199F19 /* Setting.swift */,
+				8320CC4A1C6E644600199F19 /* SettingsViewController.swift */,
+				8320CC4C1C6E64A100199F19 /* SettingsTableViewCell.swift */,
 				8320CC1C1C6E56C200199F19 /* Main.storyboard */,
 				8320CC1F1C6E56C200199F19 /* Assets.xcassets */,
 				8320CC211C6E56C200199F19 /* LaunchScreen.storyboard */,
@@ -263,9 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8320CC471C6E5AFB00199F19 /* SettingsController.swift in Sources */,
-				8320CC1B1C6E56C200199F19 /* ViewController.swift in Sources */,
 				8320CC491C6E616300199F19 /* Setting.swift in Sources */,
 				8320CC191C6E56C200199F19 /* AppDelegate.swift in Sources */,
+				8320CC4D1C6E64A100199F19 /* SettingsTableViewCell.swift in Sources */,
+				8320CC4B1C6E644600199F19 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
